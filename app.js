@@ -7,6 +7,9 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
+app.get('/cadastro',(req,res) => {
+    res.sendfile('public/cadastro.html');
+});
 
 // Exemplo de rota para envio de dados de formulário
 // app.post('/teste', function (req, res) {
