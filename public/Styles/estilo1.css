@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    background-image: url(../images/carregando.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+
+
+.logo{
+    margin: 10px!important;
+    align-items:initial !important;
+    width: 70px;
+    height: auto;
+    align-items: center !important;
+    padding: 10px
+
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+}
