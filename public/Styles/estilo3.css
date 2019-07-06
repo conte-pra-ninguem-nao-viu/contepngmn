@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    background-image: url(../images/telas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    padding: 240px 0px 0px 0px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 0.5s;
+    font-family: Showcard Gothic;
+}
+
+.tela-eventos1, .tela-eventos2, .tela-eventos3{
+    text-decoration: none;
+    display: inline-block;
+    font-family: Showcard Gothic;
+    font-size: 1rem;
+    color: #666666;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    background-color: #fefefe;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 1px solid #211;
+}
+
+.tela-eventos1 input, .tela-eventos2 input, .tela-eventos3 input {
+    background-color: #fefefe;
+    font-family: Showcard Gothic;
+    border: none !important;
+}
+
+.tela-eventos1 a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 10px;
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        }
